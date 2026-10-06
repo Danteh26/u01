@@ -1,0 +1,12 @@
+body {
+    max-width: 600px;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    max-width: 600px;
+    margin: auto;
+}
