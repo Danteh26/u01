@@ -6,7 +6,81 @@ body {
 header {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    max-width: 600px;
+    justify-content: space-between;
     margin: auto;
+    margin-top: 20px;
+}
+
+header img {
+    width: 32px;
+    height: 32px;
+    margin: auto 0;
+}
+
+.main-logo {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+
+}
+
+.main-logo p {
+    background: linear-gradient(270deg, var(--gradient-color-1), var(--gradient-color-2));
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.links {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.links a {
+    margin-top: 5px;
+}
+
+nav a {
+    margin-top: 50px;
+}
+
+.links a {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+main {
+    
+}
+
+h1 {
+    width: 50%;
+    margin: 50px 0px;
+}
+
+h1 strong {
+    background: linear-gradient(270deg, color-mix(in srgb, var(--gradient-color-1) 50%, var(--gradient-color-2) 50%), var(--gradient-color-2));
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+main img {
+    border: 5px solid transparent;
+    border-radius: 50%;
+    width: 50%;
+    background:linear-gradient(white, white) padding-box, linear-gradient(180deg, var(--gradient-color-1), var(--gradient-color-2)) border-box;
 }

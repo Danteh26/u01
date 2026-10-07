@@ -1,3 +1,8 @@
+:root {
+    --gradient-color-1: #E70FAA;
+    --gradient-color-2: #00C0FD;
+}
+
 * {
     margin: 0;
     padding: 0;
