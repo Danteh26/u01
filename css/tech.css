@@ -1,0 +1,19 @@
+.tech p {
+    margin: 20px 0;
+}
+
+.tech-logos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 35px 25px;
+    align-items: center;
+    justify-items: center;
+}
+
+.tech-logos img {
+    object-fit: contain;
+}
+
+.tools h2 {
+    margin: 40px 0 20px  0;
+}
