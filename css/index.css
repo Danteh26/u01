@@ -38,26 +38,35 @@ nav {
     align-items: center;
 
 }
-.links {
+.page-links {
     display: flex;
     flex-direction: column;
-    
 }
 
-.links a {
+.page-links a {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
     margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.logo-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.logo-links a img {
+    width: 40px;
+    height: 40;
 }
 
 nav a {
     margin-top: 50px;
 }
 
-.links a {
-    text-align: center;
-    font-size: 20px;
-    font-weight: bolder;
-    margin-bottom: 5px;
-}
 
 a {
     text-decoration: none;
