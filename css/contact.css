@@ -16,3 +16,20 @@ h2 {
     font-size: 34px;
     font-weight: bolder;
 }
+
+@media (min-width: 1200px) {
+
+    .contacts span {
+        display: none;
+    }
+
+    .phone-number {
+        display: none;
+    }
+}
+
+@media (max-width: 1200px) {
+    nav {
+        display: none;
+    }
+}
