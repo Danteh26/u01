@@ -3,7 +3,7 @@ body {
     margin: auto;
 }
 
-h1 {
+main h1 {
     width: 50%;
     margin: 50px 0px;
 }
@@ -25,12 +25,14 @@ main img {
         display: flex;
         flex-direction: row;
     }
+
     main img {
         width: 460px;
         height: 460px;
         margin: auto;
     }
-    h1 {
+    
+    main h1 {
         font-size: 46px;
         margin: auto;
     }

@@ -13,11 +13,25 @@
     display: none;
 }
 
+.dark-mode-img {
+    display: none;  
+}
+
+.dark-mode-extra-img {
+    display: none;
+}
+
 .tools h2 {
     margin: 40px 0 20px  0;
 }
 
 @media (min-width: 1200px) {
+    @media (prefers-color-scheme: dark) {
+        .dark-mode-extra-img {
+            display: block;
+        }
+    }
+    
     .tech-logos {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -42,4 +56,16 @@
     nav {
         display: none;
     }
+}
+
+
+@media (prefers-color-scheme: dark) {
+    .dark-mode-img {
+        display: block;
+    }
+
+    .light-mode-img {
+        display: none;
+    }
+
 }
